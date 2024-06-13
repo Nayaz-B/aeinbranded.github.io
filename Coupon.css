@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ 
+}
+body{
+    background: #ecf4fb;
+    
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    text-align:center ;
+    margin:0 auto 80px ;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.main h1::after{
+    content:'' ;
+    background: #ff523b;
+    width:80px ;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left:50% ;
+    transform: translateX(-50%);
+}
+.main img{
+    position: absolute;
+    top:100px;
+    left:0px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.main img:hover{
+    
+    position: absolute;
+    top:100px;
+    left:0px;
+    cursor: pointer;
+    transform: scale(1) skew(15);
+border-radius: 20px;
+box-shadow: 0 32px 7px rgba(68,77,136,0.2);
+    
+}
+
+.butns1{
+    position: absolute;
+    top: 500px;
+    left: 0;
+}
+.m1{
+    position: absolute;
+    left: 0;
+    top:50px;
+    color:burlywood
+}
+.main2 img{
+    position: absolute;
+    top: 100px;
+    left:600px;     
+}
+.main2 img:hover{
+        position: absolute;
+        top: 120px;
+        left:550px;     
+        border-radius: 20px;
+        cursor: pointer;
+        transform: scale(1) skew(15);
+        box-shadow: 0 32px 7px rgba(68,77,136,0.2);
+
+    }
+
+.butns2{
+        position: absolute;
+        left: 600px;
+        top: 500px;
+    }
+.m2{
+        position: absolute;
+        left: 600px;
+        top: 80px;
+        }
+.main3 img{
+    position: absolute;
+    left:1100px;
+    top: 100px;
+}
+.main3 img:hover{
+    position: absolute;
+    left:1050px;
+    top: 120px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1) skew(15);
+    box-shadow: 0 32px 7px rgba(68,77,136,0.2);
+
+}
+.butns3{
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+}
+ .m3{
+    position: absolute;
+left: 1100px;
+top: 100px;
+}
+.main4 img{
+    position: absolute;
+    left:0px;
+    top: 600px;
+}
+.main4 img:hover{
+    position: absolute;
+    left:10px;
+    top: 650px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1) skew(15);
+    box-shadow: 0 32px 7px rgba(68,77,136,0.2);
+
+}
+.butns4{
+    position: absolute;
+    left: 0px;
+    top: 1000px;
+}
+ .m4{
+position: absolute;
+left: 10px;
+top:550px;
+color:burlywood;
+}
+.main5 img{
+    position: absolute;
+    left:600px;
+    top: 600px;
+}
+.main5 img:hover{
+    position: absolute;
+    left:650px;
+    top: 650px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1) skew(15);
+    box-shadow: 0 32px 7px rgba(68,77,136,0.2);
+
+
+}
+.butns5{
+    position: absolute;
+    left: 600px;
+    top: 1000px;
+}
+ .m5{
+position: absolute;
+left: 550px;
+top: 600px;
+}
+.main6 img{
+    position: absolute;
+    left:1100px;
+    top: 600px;
+}
+.main6 img:hover{
+    position: absolute;
+    left:1050px;
+    top: 620px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1) skew(15);
+    box-shadow: 0 32px 7px rgba(68,77,136,0.2);
+
+}
+.butns6{
+    position: absolute;
+    left: 1100px;
+    top: 1000px;
+}
+ .m6{
+position: absolute;
+left: 1100px;
+top: 600px;
+}
+.img-gallery{
+    width: 80%;
+    margin: 1300px auto 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 40px;
+}
+.img-gallery img{
+    width: 100%;
+    cursor: pointer;
+}
+.img-gallery img:hover{
+transform: scale(0.8) rotate(-15deg);
+border-radius: 20px;
+box-shadow: 0 32px 7px rgba(68,77,136,0.2);
+}
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+}
+.heading-2 h1{
+        text-align:center ;
+        margin:0 auto 80px ;
+        position: absolute;
+        left:500px;
+        line-height: 60px;
+        color: #555;
+        top: 160%;
+    }
+    .heading-2 h1::after{
+        content:'' ;
+        background: #ff523b;
+        width:80px ;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        left:50% ;
+        transform: translateX(-50%);
+    }
+    
+.full-img img{
+    width: 90%;
+    max-width: 500px;
+}
+.full-img  span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.container{
+    margin-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
